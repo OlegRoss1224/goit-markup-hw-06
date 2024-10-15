@@ -243,7 +243,7 @@ body {
 }
 
 .mobile-menu.is-open {
-  /* opacity: 1; */
+  opacity: 1;
   visibility: visible;
   pointer-events: auto;
 }
@@ -491,7 +491,7 @@ body {
 @media screen and (min-width: 768px) {
   .description-section {
     min-width: 736px;
-    padding-top: 0;
+    padding-top: 96px;
     padding-bottom: 96px;
     margin-left: auto;
     margin-right: auto;
