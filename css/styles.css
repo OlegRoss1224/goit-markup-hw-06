@@ -239,7 +239,7 @@ body {
 }
 
 .mobile-menu.is-open {
-  opacity: 1;
+  /* opacity: 1; */
   visibility: visible;
   pointer-events: auto;
 }
@@ -497,7 +497,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .description-section {
-    min-width: 736px;
     padding-top: 96px;
     padding-bottom: 96px;
     margin-left: auto;
@@ -663,8 +662,6 @@ body {
 }
 @media screen and (min-width: 1158px) {
   .team-section {
-    /* min-width: 1440px;
-    height: 780px; */
     margin-left: auto;
     margin-right: auto;
     padding-top: 96px;
@@ -763,12 +760,6 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .portfolio-section {
-    min-width: 736px;
-  }
-  /* .container {
-    max-width: 768px;
-  } */
   .portfolio-menu {
     max-width: 736px;
     flex-direction: row;
@@ -787,7 +778,6 @@ body {
 }
 @media screen and (min-width: 1158px) {
   .portfolio-section {
-    max-width: 1128px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -811,7 +801,6 @@ body {
 
 /* ================ FOOTER STYLES ================ */
 .page-footer {
-  width: 100%;
   height: 664px;
   padding: 96px 0;
   background-color: #2e2f42;
